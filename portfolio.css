@@ -189,7 +189,7 @@ span.fab:hover{
     letter-spacing: 0.17em;
 }
     
-    .red {
+.red {
     color: #D30D0D;
     font-size: 55px;
     opacity: 0.5;
@@ -206,8 +206,6 @@ span.fab:hover{
 /*---------------------------
             work
 ---------------------------*/
-
-
 .container {
    text-align: center;
 }
@@ -267,7 +265,7 @@ a.more{
     font-weight: normal;
     letter-spacing: 0.17em;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 50px;
 }
     .work_content{
   margin-top: 20px;
@@ -299,7 +297,7 @@ a.more{
     font-weight: normal;
     letter-spacing: 0.17em;
     font-size: 32px;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 }
 
@@ -381,8 +379,6 @@ a.more{
 /*---------------------------
            SKIL
 ---------------------------*/
-div .container.skil {
-	margin-top:50px;}
 .about_content {
     margin-top: 100px;
 }
