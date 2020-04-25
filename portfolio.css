@@ -381,7 +381,8 @@ a.more{
 /*---------------------------
            SKIL
 ---------------------------*/
-
+.skil {
+	margin-top:50px;
 .about_content {
     margin-top: 100px;
 }
