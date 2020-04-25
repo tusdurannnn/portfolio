@@ -224,6 +224,10 @@ dl {
 	color: #fff;
 	background: rgba(205,92,92,.9);
 }
+.work_picture{
+	margin-top:25px;
+}
+
 .work_title{
     color: #514F4F;
 }
