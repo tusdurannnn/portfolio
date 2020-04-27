@@ -424,6 +424,7 @@ img {
 @media screen and (max-width:576px){
     .skil_content,.p_title {
         font-size: 12px;
+	ine-height:150%;
     }
 }
 /*---------------------------
