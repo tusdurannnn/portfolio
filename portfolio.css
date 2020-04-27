@@ -278,7 +278,6 @@ a.more{
   margin-top: 20px;
   text-align: left;
   font-size: 12px;
-  line-height:190%;
 }
 }
 
@@ -307,9 +306,7 @@ a.more{
     font-size: 32px;
     margin: 50px 0;
 } 
-.work_content{
-    line-height:190%;
-}
+
 }
 
 /*---------------------------
@@ -367,6 +364,7 @@ a.more{
     padding:30x 0;
     text-align: left;
     margin-left: 50px;
+    line-height:190%
 }
 }
 
@@ -385,6 +383,7 @@ a.more{
     padding:30x 0;
     text-align: left;
     margin-left: 100px;
+    line-height:190%
 }
 }
 /*---------------------------
@@ -419,7 +418,7 @@ img {
 .skil_content {
     text-align: left;
     margin-top: 15px;
-    line-height:170%;
+    line-height:180%;
 }
 
 @media screen and (max-width:576px){
