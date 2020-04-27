@@ -419,6 +419,7 @@ img {
 .skil_content {
     text-align: left;
     margin-top: 15px;
+    line-height:170%;
 }
 
 @media screen and (max-width:576px){
