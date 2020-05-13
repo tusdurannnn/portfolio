@@ -9,14 +9,16 @@ body {
     p {
     font-size: 10px;
     color: #828282;
-    line-height:150%
+    line-height:150%;
+        font-family: a-otf-futo-go-b101-pr6n, sans-serif;
 } 
 }
 @media screen and (min-width:576px) and (max-width:991px) {
     p {
     font-size: 12px;
     color: #828282;
-    line-height:170%
+    line-height:170%;
+        font-family: a-otf-futo-go-b101-pr6n, sans-serif;
 }
 }
 @media screen and (max-width:768px) {
@@ -26,9 +28,10 @@ body {
     
 }
 p {
-    font-size: 13px;
+    font-size: 12px;
     color: #828282;
-   line-height:170%
+   line-height:170%;
+    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
 }
 
 .navbar-light .navbar-toggler {
@@ -147,11 +150,7 @@ span.fab:hover{
     text-align: center;
     letter-spacing: 0.17em;
 }  
-    .red {
-    color: #D30D0D;
-    font-size: 23px;
-    opacity: 0.5;
-}
+   
     .main_title {
     font-size: 35px
 } 
@@ -217,11 +216,6 @@ span.fab:hover{
     letter-spacing: 0.17em;
 }
     
-.red {
-    color: #D30D0D;
-    font-size: 55px;
-    opacity: 0.5;
-}
 .main_title {
     font-size: 65px
 }
@@ -246,10 +240,9 @@ div.wwork{
 }
 
 .work_content {
-    position: relative;
-    padding-bottom: 30px;
-    margin-top: 20px;
-  text-align: center;
+   padding-bottom: 30px;
+    margin-top: 10px;
+    text-align: left;
 }
 
 .col-9 {
@@ -274,20 +267,8 @@ dl {
   cursor: pointer;
   transform: scale(1.1, 1.1);
 }
-
-a .btn {
-    color: #969295;
-    margin-top: 10px;
-    text-align: right;
-}
-
-a.more{
-    color: #969295;
-    margin-top:15px;
-    margin-bottom: 40px;
-    border: 1px solid #E2C9DE;
-    border-radius: 3px;
-    float: right;
+.bottom {
+    padding-bottom: 80px;
 }
 
 .more1 {
@@ -295,9 +276,9 @@ a.more{
 }
 
 .bold_t {
-    letter-spacing: 0.1em;
-    font-size: 15px;
-    font-family: 'Microsoft Sans Serif';
+    letter-spacing: 0.09em;
+    font-size: 17px;
+    font-family: benton-sans, sans-serif;
 }
 
 /* メディアクエリ*/
@@ -432,7 +413,7 @@ img.hako{
     
     div .content {
     position: relative;
-    top: -60%;
+    top: -50%;
     font-size: 10px;
     color: #969295;
     text-align: left;
@@ -461,7 +442,7 @@ img.hako{
     div .content {
     display: inline-block;
     position: relative;
-    top: -50%;
+    top: -60%;
     font-size: 10px;
     color: #969295;
 }
@@ -601,7 +582,7 @@ img.hako{
     left: 35%;
     color: #484848;
     letter-spacing: 0.2em;
-    font-size: 13px;
+    font-size: 14px;
 }
 .tate1{
     writing-mode: vertical-rl;
@@ -610,7 +591,7 @@ img.hako{
     left: 22%;
     color: #484848;
     letter-spacing: 0.2em;
-    font-size: 13px;
+    font-size: 14px;
 }
 }
 
