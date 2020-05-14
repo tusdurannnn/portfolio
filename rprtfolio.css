@@ -247,6 +247,7 @@ div.wwork{
    padding-bottom: 30px;
     margin-top: 10px;
     text-align: left;
+    font-size: 10px;
 }
 
 .col-9 {
@@ -666,4 +667,3 @@ footer {
 #title{
 z-index: 10;
 }
-
