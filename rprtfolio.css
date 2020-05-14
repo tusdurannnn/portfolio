@@ -9,15 +9,15 @@ body {
 p {
     font-size: 12px;
     color: #828282;
-   line-height:170%;
+   line-height: 200%;
     font-family: ryo-gothic-plusn, sans-serif;
 }
 
 @media screen and (max-width:576px){
 p {
-    font-size: 9px;
+   font-size: 10px;
     color: #828282;
-   line-height:170%;
+    line-height: 180%;
     font-family: ryo-gothic-plusn, sans-serif;
 }
 
@@ -27,7 +27,7 @@ p {
     p {
     font-size: 11px;
     color: #828282;
-   line-height:170%;
+   line-height:180%;
     font-family: ryo-gothic-plusn, sans-serif;
 }
 }
@@ -51,7 +51,7 @@ body {
     0% {
       opacity: 0
     }
-
+div
     100% {
       opacity: 1
     }
@@ -233,12 +233,7 @@ span.fab:hover{
             work
 ---------------------------*/
 
-div.wwork{
-       background-color: #fbf8fb;
-    margin-top: 145px;
-    padding-top: 60px;
-    margin-bottom: 200px;;
-}
+
 .container {
    text-align: center;
 }
@@ -296,13 +291,17 @@ dl {
     font-family: mr-eaves-modern, sans-serif;
     font-weight: normal;
     letter-spacing: 0.17em;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 50px;
 }
     .work_content{
   margin-top: 20px;
   text-align: left;
   font-size: 12px;
+}
+    div.wwork {
+    margin-top: 200px;
+    background-color: #fbf8fb;
 }
 }
 
@@ -317,6 +316,11 @@ dl {
     letter-spacing: 0.17em;
     font-size: 28px;
 }
+    div.wwork{
+       background-color: #fbf8fb;
+    padding-top: 60px;
+    margin-bottom: 200px;
+}
 }
 
 @media screen and (min-width:992px) {
@@ -330,7 +334,11 @@ dl {
     font-size: 32px;
     margin: 50px 0;
 } 
-f
+    div.wwork{
+       background-color: #fbf8fb;
+    padding-top: 60px;
+    margin-bottom: 200px;
+}
 }
 
 /*---------------------------
@@ -374,7 +382,7 @@ img.more {
     position: relative;
     bottom: -20px;
     left: 84%;
-    width: 14%;
+    width: 16%;
 }
 
 img.hako{
@@ -408,7 +416,7 @@ img.hako{
      font-size: 16px;
 }
 
-/* メディアクエリ */
+/* メディアクエリ max-width:576px */
 @media screen and (max-width:576px) {
     #about {
     display: block;
@@ -433,6 +441,7 @@ img.hako{
     color: #969295;
     text-align: left;
     padding-left: 12px;
+    width: 90%;
 }
     .me {
     width: 27%;
@@ -463,18 +472,22 @@ img.hako{
     writing-mode: vertical-rl;
     position: relative;
     top: -11%;
-    left: 40%;
-    width: 55%;
+    left: 42%;
+    width: 53%;
 }
 .moji2{
     writing-mode: vertical-rl;
     position: relative;
     top: -2%;
-    left: 60%;
-    width: 43%;
+    left: 67%;
+    width: 35%;
+}
+    .bold {
+    font-weight: bold;
+    font-size: 14px;
 }
 }
-
+/* メディアクエリ (min-width:576px) and ( max-width:768px) */
 @media screen and (min-width:576px) and ( max-width:768px){
     div .content {
     display: inline-block;
@@ -503,9 +516,14 @@ img.hako{
     left: 68%;
     width: 35%;
 }
+    div.wwork {
+    background-color: #fbf8fb;
+    margin-top: 150px;
+}
+   
  
 }
-
+/* メディアクエリ (min-width:768px) and (max-width:991px) */
 @media screen and (min-width:768px) and (max-width:991px){
     .haikei{
      width: 150%;
@@ -516,8 +534,34 @@ img.hako{
     left: 55%;
     top: -6%;
 }
- 
+    .moji1 {
+    writing-mode: vertical-rl;
+    position: relative;
+    top: -20%;
+    left: 44%;
+    width: 5%;
 }
+    .moji2{
+    writing-mode: vertical-rl;
+    position: relative;
+    top: -39%;
+    left: 29%;
+    width: 5%;
+    }
+    
+    img.more {
+    position: relative;
+    bottom: -20px;
+    left: 84%;
+    width: 21%;
+}
+    div.wwork {
+    background-color: #fbf8fb;
+    margin-bottom: 200px;
+}
+}
+
+/* メディアクエリ (min-width:576px) and ( max-width:991px) */
 @media screen and (min-width:576px) and ( max-width:991px){
     .h2_title1 {
     display: inline-block;
@@ -538,9 +582,9 @@ img.hako{
     margin-left: 50px;
     line-height: 190%
 }
-    
+  
 }
-
+/* メディアクエリ (min-width:992px)*/
 @media screen and (min-width:992px) {
     .h2_title1 {
     display: inline-block;
@@ -563,10 +607,11 @@ img.hako{
     div .content {
     display: inline-block;
     position: relative;
-    top: 26%;
+    top: 22%;
     right: -10%;
     font-size: 10px;
     color: #969295;
+    width: 90%;
 }
     .me {
     width: 44%;
