@@ -489,6 +489,19 @@ img.hako{
     left: 14%;
     top: -25%;
 }
+.moji1{
+    writing-mode: vertical-rl;
+    position: relative;
+    top: -47%;
+    left: 45%;
+    width: 50%;
+    }
+.moji2{
+   writing-mode: vertical-rl;
+    position: relative;
+    top: -35%;
+    left: 68%;
+    width: 35%;
 }
  
 }
@@ -525,20 +538,7 @@ img.hako{
     margin-left: 50px;
     line-height: 190%
 }
-    .moji1{
-    writing-mode: vertical-rl;
-    position: relative;
-    top: -47%;
-    left: 45%;
-    width: 50%;
-    }
-.moji2{
-   writing-mode: vertical-rl;
-    position: relative;
-    top: -35%;
-    left: 68%;
-    width: 35%;
-}
+    
 }
 
 @media screen and (min-width:992px) {
