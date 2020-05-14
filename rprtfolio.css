@@ -5,20 +5,30 @@ body {
     position: relative;
     padding-top: 65px;
 }
-@media screen and (max-width:576px){
-    p {
-    font-size: 10px;
-    color: #828282;
-    line-height:150%;
-        font-family: a-otf-futo-go-b101-pr6n, sans-serif;
-} 
-}
-@media screen and (min-width:576px) and (max-width:991px) {
-    p {
+
+p {
     font-size: 12px;
     color: #828282;
-    line-height:170%;
-        font-family: a-otf-futo-go-b101-pr6n, sans-serif;
+   line-height:170%;
+    font-family: ryo-gothic-plusn, sans-serif;
+}
+
+@media screen and (max-width:576px){
+p {
+    font-size: 9px;
+    color: #828282;
+   line-height:170%;
+    font-family: ryo-gothic-plusn, sans-serif;
+}
+
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    p {
+    font-size: 11px;
+    color: #828282;
+   line-height:170%;
+    font-family: ryo-gothic-plusn, sans-serif;
 }
 }
 @media screen and (max-width:768px) {
@@ -26,12 +36,6 @@ body {
     padding-top: 27px;
     }
     
-}
-p {
-    font-size: 12px;
-    color: #828282;
-   line-height:170%;
-    font-family: a-otf-futo-go-b101-pr6n, sans-serif;
 }
 
 .navbar-light .navbar-toggler {
@@ -230,10 +234,10 @@ span.fab:hover{
 ---------------------------*/
 
 div.wwork{
-    background-color: #fbf8fb;
-    margin-top: -60px;
+       background-color: #fbf8fb;
+    margin-top: 145px;
     padding-top: 60px;
-    margin-bottom: 200px;
+    margin-bottom: 200px;;
 }
 .container {
    text-align: center;
@@ -277,8 +281,9 @@ dl {
 
 .bold_t {
     letter-spacing: 0.09em;
-    font-size: 17px;
+    font-size: 14px;
     font-family: benton-sans, sans-serif;
+    background: linear-gradient(transparent 70%, #f7f7cd 70%);
 }
 
 /* メディアクエリ*/
@@ -335,10 +340,8 @@ f
     font-size: 15px;
 }
 
-
-
 /*---------------------------
-         About
+            ABOUT
 ---------------------------*/
 #about {
     display: block;
@@ -373,27 +376,38 @@ img.more {
     width: 14%;
 }
 
-.moji1 {
-    position: relative;
-    right: 5%;
-    top: -24%;
-    width: 4%;
-}
-
-.moji2 {
-    right: 23%;
-    width: 4%;
-    z-index: 10;
-    position: relative;
-    top: -9%;
-}
-
 img.hako{
     position: absolute;
     width: 600px;
     top: 20%;
 }
 
+.moji1{
+    writing-mode: vertical-rl;
+    position: relative;
+    top: -27%;
+    left: 11%;
+    width: 4%;
+}
+.moji2{
+       writing-mode: vertical-rl;
+    position: relative;
+    top: -14%;
+    left: -10%;
+    width: 4%;
+}
+
+.about-wrapper {
+    padding-top: 70px;
+    padding-bottom: 170px;
+}
+
+.bold {
+    font-weight: bold;
+     font-size: 16px;
+}
+
+/* メディアクエリ */
 @media screen and (max-width:576px) {
     #about {
     display: block;
@@ -413,7 +427,7 @@ img.hako{
     
     div .content {
     position: relative;
-    top: -50%;
+    top: -4%;
     font-size: 10px;
     color: #969295;
     text-align: left;
@@ -425,137 +439,6 @@ img.hako{
     left: 50%;
     top: 19%;
 }
-    .moji1 {
-    position: relative;
-    right: 10%;
-    top: 0%;
-    width: 3%;
-}
-    .moji2 {
-    right: 26%;
-    width: 3%;
-    position: relative;
-    top: -15%;
-}
-}
-@media screen and (min-width:576px) and ( max-width:768px){
-    div .content {
-    display: inline-block;
-    position: relative;
-    top: -60%;
-    font-size: 10px;
-    color: #969295;
-}
-    .me {
-    width: 32%;
-    position: absolute;
-    left: 48%;
-    top: -2%;
-}
-    .moji1 {
-    position: relative;
-    right:11%;
-    top: -27%;
-    width: 3.5%;
-}
-    .moji2 {
-    right: 26%;
-    width: 3.5%;
-    position: relative;
-    top: -10%;
-}
-}
-
-@media screen and (min-width:768px) and (max-width:991px){
-    .haikei{
-     width: 150%;
-    }
-    .me {
-    width: 50%;
-    position: absolute;
-    left: 55%;
-    top: -6%;
-}
-     .moji1 {
-    position: relative;
-    right: 4%;
-    top: -16%;
-    width: 5.5%;
-}
-    .moji2 {
-    right: 30%;
-    width: 5.5%;
-    position: relative;
-    top: 6%;
-}
-}
-@media screen and (min-width:992px){
-
-    .haikei{
-     width: 150%;
-    }
-
-    div .content {
-    display: inline-block;
-    position: relative;
-    top: 26%;
-    right: -10%;
-    font-size: 10px;
-    color: #969295;
-}
-    .me {
-    width: 44%;
-    position: absolute;
-    left: 70%;
-    top: 0%;
-}
-    .moji1 {
-    position: relative;
-    right: -10%;
-    top: -21%;
-    width: 4.5%;
-}
-    .moji2 {
-        right: 12%;
-    width: 4.5%;
-    position: relative;
-    top: -5%;
-}
-}
-/*---------------------------
-            ABOUT
----------------------------*/
-.tate{
-    writing-mode: vertical-rl;
-    position: relative;
-    top: -15%;
-    left: 33%;
-    letter-spacing: 0.2em;
-    font-size: 15px;
-    color: #f590aa;
-}
-.tate1{
-    writing-mode: vertical-rl;
-    position: relative;
-    top: -36%;
-    left: 22%;
-    letter-spacing: 0.2em;
-    font-size: 16px;
-     color: #f590aa;
-}
-
-.about-wrapper {
-    padding-top: 70px;
-    padding-bottom: 170px;
-}
-
-.bold {
-    font-weight: bold;
-     font-size: 16px;
-}
-
-/* メディアクエリ */
-@media screen and (max-width:576px) {
     .h2_title1 {
     display: inline-block;
     border-bottom: solid 2px #E2C9DE;
@@ -575,26 +458,51 @@ img.hako{
     margin-left: 30px;
     font-size: 12px;
 }
-    .tate{
+    .moji1{
+    writing-mode: vertical-rl;
+    position: relative;
+    top: -11%;
+    left: -9%;
+    width: 3%;
+}
+.moji2{
     writing-mode: vertical-rl;
     position: relative;
     top: -2%;
-    left: 35%;
-    color: #484848;
-    letter-spacing: 0.2em;
-    font-size: 14px;
-}
-.tate1{
-    writing-mode: vertical-rl;
-    position: relative;
-    top: -27%;
-    left: 22%;
-    color: #484848;
-    letter-spacing: 0.2em;
-    font-size: 14px;
+    left: -25%;
+    width: 3%;
 }
 }
 
+@media screen and (min-width:576px) and ( max-width:768px){
+    div .content {
+    display: inline-block;
+    position: relative;
+    top: -18%;
+    font-size: 10px;
+    color: #969295;
+}
+    .me {
+    width: 32%;
+    position: absolute;
+    left: 48%;
+    top: -2%;
+}
+ 
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .haikei{
+     width: 150%;
+    }
+    .me {
+    width: 50%;
+    position: absolute;
+    left: 55%;
+    top: -6%;
+}
+ 
+}
 @media screen and (min-width:576px) and ( max-width:991px){
     .h2_title1 {
     display: inline-block;
@@ -615,23 +523,19 @@ img.hako{
     margin-left: 50px;
     line-height: 190%
 }
-    .tate{
+    .moji1{
     writing-mode: vertical-rl;
     position: relative;
-    top: -15%;
-    left: 33%;
-    color: #484848;
-    letter-spacing: 0.2em;
-    font-size: 15px;
+    top: -26%;
+    left: -11%;
+    width: 3%;
 }
-.tate1{
+.moji2{
     writing-mode: vertical-rl;
     position: relative;
-    top: -36%;
-    left: 22%;
-    color: #484848;
-    letter-spacing: 0.2em;
-    font-size: 16px;
+    top: -11%;
+    left: -26%;
+    width: 3%;;
 }
 }
 
@@ -650,24 +554,25 @@ img.hako{
     text-align: left;
     line-height:190%
 }
-    .tate{
-    writing-mode: vertical-rl;
+   .haikei{
+     width: 150%;
+    }
+
+    div .content {
+    display: inline-block;
     position: relative;
-    top: -15%;
-    left: 33%;
-    color: #484848;
-    letter-spacing: 0.21em;
-    font-size: 15px;
+    top: 26%;
+    right: -10%;
+    font-size: 10px;
+    color: #969295;
 }
-.tate1{
-    writing-mode: vertical-rl;
-    position: relative;
-    top: -36%;
-    left: 22%;
-    color: #484848;
-    letter-spacing: 0.21em;
-    font-size: 16px;
+    .me {
+    width: 44%;
+    position: absolute;
+    left: 70%;
+    top: 0%;
 }
+
 }
 /*---------------------------
            SKIL
