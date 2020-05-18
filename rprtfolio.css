@@ -385,6 +385,10 @@ img.more {
     width: 16%;
 }
 
+img.more:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
 img.hako{
     position: absolute;
     width: 600px;
@@ -414,6 +418,11 @@ img.hako{
 .bold {
     font-weight: bold;
      font-size: 16px;
+}
+
+.boldd{
+    font-weight: bold;
+     font-size: 14px;
 }
 
 /* メディアクエリ max-width:576px */
@@ -473,14 +482,14 @@ img.hako{
     position: relative;
     top: -11%;
     left: 42%;
-    width: 55%;
+    width: 53%;
 }
 .moji2{
     writing-mode: vertical-rl;
     position: relative;
     top: -2%;
     left: 67%;
-    width: 37%;
+    width: 35%;
 }
     .bold {
     font-weight: bold;
