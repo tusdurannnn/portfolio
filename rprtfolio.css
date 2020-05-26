@@ -230,6 +230,13 @@ dl {
     width: 19%;
 }
 
+.bold_t1 {
+    letter-spacing: 0.09em;
+    font-size: 14px;
+    font-family: benton-sans, sans-serif;
+    background: linear-gradient(transparent 70%, #c3eff7 70%);
+}
+
 .bold_t {
     letter-spacing: 0.09em;
     font-size: 14px;
